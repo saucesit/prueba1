@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Righteous&display=swap');
+
+
+
+/* HEADER GENERAL */
+
+/* header {
+    background-color: rgb(53, 2, 2);
+    width: 100%;
+    height: 250px;
+    margin: 10px 0px 120px 0px;
+    
+      }
+
+header nav ul li {
+    list-style-type: none;
+}
+
+.logosauzales{
+
+height: 270px;
+width: 305px;
+margin: 0px 0px 20px 0px;
+
+
+
+}
+
+
+
+
+li {
+    background-color: whitesmoke;
+    
+
+}
+
+a {
+    text-decoration: none;
+    border: solid 3px black;
+    font-size: x-large 
+       
+    }
+
+    .fontnav {
+        font-family: 'Righteous', cursive;
+        color: antiquewhite;
+        background-color: rgb(53, 2, 2);
+        border: 1px solid white;
+        padding: 12px;
+     
+   }
+
+
+.menunav{
+    display: inline;
+    margin: 6%;
+    
+
+
+}
+ */
+
+ 
+/* CON GRID */
+
+
+.contenedor {
+    width: 100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,auto);
+
+}
+
+.contenedor >div,
+.contenedor .encabezado,
+.contenedor .contenido,
+.contenedor .pie_depagina {
+    font-family: 'Righteous', cursive;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+} 
+
+.contenedor .encabezado {
+background-color: rgb(39, 3, 3);
+grid-column: 1 / 4;
+display: flex;
+align-items: flex-start;
+
+
+
+
+}
+
+
+
+.contenedor .contenido {
+    grid-column: span 3;
+}
+
+.logosauzales{
+
+    height: 50%;
+    width: 50%;
+}
+
+.barradenav a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.menunav {
+    display: inline;
+}
+
+.encabezado div li {
+    list-style-type: none;
+
+
+}
+
+.menunav {
+    display: flex;
+    
+}
+
+.barradenav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.fontnav {
+    font-family: 'Righteous', cursive;
+    color: antiquewhite;
+    background-color: rgb(53, 2, 2);
+    border: 1px solid white;
+    padding: 12px;
+}
+
+
+.contenido div img {
+    height: 200px;
+    width: auto;
+}
+
+    
+
+
+/* FIN HEADER GENERAL */
+
+/* INICIO DE MAIN - HOME */
+
+
+/* body{
+    background-color: black;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    display: block;
+    color: white;
+    border: 30px solid white;
+    margin: 50px;
+    font-size: 50px;
+    text-align: center;
+
+
+}
+ */
+/* .listaspotify {
+    width: 75%;
+    height: auto;
+    margin-left: 35px;
+ 
+    }
+
+    /* MOMENTOS - CARROUSEL? */
+
+/*  h2 {
+    font-family: 'Righteous', cursive;
+    display: block;
+    color: white;
+    border: 30px solid white;
+    margin: 50px;
+    font-size: 50px;
+    text-align: center; */
+
+ }  */
+ /* 
+ .momentos {
+    height: auto;
+    width: 100%; */
+ }
+
+/* 
+.imgcarrousel {
+    height: 500px;
+    width: 600px;
+    border: solid 4px white;
+    padding: 10px;
+    margin: 25px 100px 25px 100px;
+}
+ */
+
+/* 
+ 
+.parrafo1 {
+color: white;
+background-color: black;
+border: 4px solid white;
+text-align: center;
+font-size: 40px;
+margin: 0px 75px 75px 75px;
+      */
+}
+
+/* FIN DE MAIN  */
+
+/* INICIO FOOTER */
+
+footer {
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.redestitulo {
+    border: black solid 3px;
+    display: inline;
+    padding: 15px;
+    margin: 30px 0px 70px 0px;
+
+}
+
+#botondeinicio {
+    border: 3px solid black;
+    padding: 15px;
+    margin: 30px;
+    font-family: 'Righteous', cursive;
+    background-color: rgb(53, 2, 2);
+    color: white;
+    
+}
+
+.botondeinicio a {
+    margin: 0% 50%;
+}
+
+
+
+
+
+.redes {
+    font-family: 'Righteous', cursive;
+    
+}
+
+.instagram {
+    color: white;
+    padding: 5px;
+    background-color: rgb(146, 56, 231);
+
+}
+
+.facebook {
+    color: white;
+    padding: 5px;
+    background-color: rgb(27, 27, 212);
+
+}
+
+.footerspoty {
+    color: white;
+    padding: 5px;
+    background-color: rgb(65, 151, 65);
+}
+
+.soundcloud {
+    color: white;
+    padding: 5px;
+    background-color: rgb(197, 130, 5);
+}
+
+.twitter {
+    color: white;
+    padding: 5px;
+    background-color: rgb(63, 117, 235);
+}
+
+/* Footer contactos */
+
+.footcontacto {
+    
+}
+
+
+
+
+
+/* MAIN - HISTORIA */
+    
+.titulo_historia {
+    font-family: 'Righteous', cursive;
+    border: 5px solid black;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+
+.main_historia {
+    width: 100%;
+    background-color: black;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.titulo_historia__parrafo {
+    font-size: 75px;
+    border: solid black 8px;
+    color: white;
+}
+
+.texto_imagen1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.texto1 {
+    width: 50%;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.texto_imagen2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto2 {
+    width: 50%;
+    font-size: 40px;
+    padding: 15px;
+}
+
+
+/* MULTIMEDIA  */
+
+
+.main_multimedia {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    margin: 100px 0px 100px 0px;
+    background-color: rgb(26, 20, 20);
+    
+}
+
+.boton_spoty_multi {
+    border: 4px solid white;
+    font-family: 'Righteous', cursive;
+    color: white;
+    background-color: green;
+
+
+}
+
+.boton_youtube_multi {
+    font-family: 'Righteous', cursive;
+    border: 4px solid white;
+    color: white;
+    background-color: red;
+
+}
+
+.boton_sound_multi {
+    font-family: 'Righteous', cursive;
+    border: 4px solid white;
+    color: white;
+    background-color: orange;
+}
+
+.main_multimedia_youtube {
+    display: flex;
+    align-items: ;
+}
+
+/* SHOWS */
+
+.main_shows {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    margin: 100px 0px 100px 0px;
+    background-color: rgb(26, 20, 20);
+
+}
+
+.main__shows_titulo {
+    display: block;
+    align-items: center;
+    border: 4px solid white;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    
+
+}
+
+.main__shows_fechas {
+    display: flex;
+    justify-content: space-around;
+
+}
